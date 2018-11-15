@@ -1,0 +1,54 @@
+.services {
+   margin-top: 200px;
+}
+
+.servicesContainer h1 {
+   margin: 0;
+}
+
+.detailsContainer {
+   width: 60%;
+   margin: 100px auto;
+}
+
+.serviceBoxContainer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 100px;
+}
+
+.serviceBox {
+position: relative;
+   width: 25%;
+   background: rgb(250, 249, 249);
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   padding: 10px;
+   color: rgba(0,0,0, .8);
+   text-shadow: 0 1px 0 #fff;
+   line-height: 1.5;
+   margin: 50px 40px;
+   text-align: center;
+}
+
+.serviceBox:before, .serviceBox:after {
+   z-index: -1; 
+   position: absolute; 
+   content: "";
+   bottom: 15px;
+   left: 10px;
+   width: 50%; 
+   top: 80%;
+   max-width:300px;
+   background: rgba(0, 0, 0, 0.7); 
+   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+   transform: rotate(-3deg);
+ }
+ 
+ .serviceBox:after {
+   transform: rotate(3deg);
+   right: 10px;
+   left: auto;
+ }
+

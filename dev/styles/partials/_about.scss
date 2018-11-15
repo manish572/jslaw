@@ -1,0 +1,83 @@
+ .banner {
+   // height: 900px;
+  //  font-family: 'Nunito';
+   display: flex;
+   justify-content: center; 
+}
+
+.bannerWrapper {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   // margin-top: 150px;
+   // margin-left: 270px;
+}
+
+.banner h1 {
+   font-size: 100px;
+   // font-weight: 400;
+   line-height: 100px;
+   letter-spacing: -8px;
+  //  text-align: center;
+   margin: 0;
+}
+
+.firstName {
+font-weight: 100;
+}
+
+
+.banner h2 {
+   width: 332px;
+   height: 60px;
+   background: #333;
+   font-size: 32px;
+   font-weight: 400;
+   line-height: 60px;
+   text-align: center;
+   color: white;
+}
+
+.banner h4 {
+   font-family: sans-serif;
+   font-weight: 100;
+   color: #999999;
+   font-size: 20px;
+   font-style: italic;
+   line-height: 30px;
+   text-align: left;
+   // margin: 0px 0px 70px 60px;
+}
+
+.btn {
+   width: 170px;
+   // border: 1px solid rgb(250, 92, 93);
+   background: black;
+}
+ .btn h3 {
+   text-align: center;
+}
+ .btn a {
+   text-decoration: none;
+   color: white;
+   font-weight: lighter;
+}
+ .btn:hover {
+   text-decoration: underline;
+   // background: rgba(217, 217, 217, 0.2)
+}
+
+.bannerImage {
+   width: 50%;
+   // height: 100%;
+  //  display: flex;
+  //  justify-content: center;
+text-align: right;
+}
+
+.jasminPic {
+   width: 70%;
+   // height: 100%;
+}
+

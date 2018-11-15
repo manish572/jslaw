@@ -1,0 +1,70 @@
+.contactBanner {
+   text-align: center;
+   p {
+      margin-top: 100px;
+   }
+}
+
+.form h1 {
+   text-align: center;
+}
+
+.inputWrapper {
+   text-align: center;
+}
+
+.inputs {
+   margin-top: 100px;
+}
+
+input {
+   width: calc(35% - 25px);
+   margin: 10px;
+   padding: 15px;
+   border: none;
+   border-bottom: 0.5px solid gray;
+   font-weight: lighter;
+   outline: none;
+   background: #ebebeb00;
+}
+
+label {
+   display: none;
+}
+
+.message {
+   width: 70%;
+}
+
+button {
+   margin: 50px 0;
+   width: 10%;
+   border-radius: 0;
+   background: none;
+   border: 0.5px solid black;
+   padding: 8px;
+   text-transform: uppercase;
+   transition: 0.3s ease all;
+   border-radius: 3px;
+   font-size: 1.4rem;
+
+   &:hover {
+      color: white;
+      background: #333;
+   }
+}
+
+button::after {
+   height: 10px;
+}
+
+.formWrapper {
+   margin-bottom: 150px;
+}
+
+@media(max-width:570px) {
+
+   button {
+      width: 20%;
+   }
+}
