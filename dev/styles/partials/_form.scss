@@ -32,9 +32,7 @@ label {
    display: none;
 }
 
-.message {
-   width: 70%;
-}
+
 
 button {
    margin: 50px 0;
@@ -62,9 +60,32 @@ button::after {
    margin-bottom: 150px;
 }
 
-@media(max-width:570px) {
-
+@media(max-width:1000px) {
    button {
       width: 20%;
    }
 }
+
+@media(max-width:582px) {
+   .contactBanner {
+      margin-top: 100px;
+      p {
+         margin-top: 0;
+      }
+   }
+
+   input {
+      width: calc(95% - 55px);
+   }
+
+   button {
+      width: 30%;
+   }
+}
+
+@media(max-width:570px) {
+   button {
+      width: 30%;
+   }
+}
+

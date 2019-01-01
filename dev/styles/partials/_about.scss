@@ -50,6 +50,15 @@ font-weight: 100;
    // margin: 0px 0px 70px 60px;
 }
 
+.nameWrapper {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   h1 {
+         text-align: left;
+   }
+}
+
 .btn {
    width: 170px;
    // border: 1px solid rgb(250, 92, 93);
@@ -81,3 +90,78 @@ text-align: right;
    // height: 100%;
 }
 
+@media (max-width:400px) {
+   .banner {
+      flex-direction: column-reverse;
+      margin-top: 50px;
+      h1 {
+         font-size: 40px;
+         letter-spacing: -2px;
+         line-height: 50px;
+         margin-top: 20px;
+         text-align: center;
+      }
+      h2 {
+         font-size: 15px;
+      }
+      .bannerWrapper {
+         width: 100%;
+      }
+
+      .nameWrapper h1 {
+         font-size: 50px;
+      }
+   }
+
+   .bannerImage {
+      width: 100%;
+      text-align: center;
+  }
+ } 
+
+ @media (max-width: 950px) {
+   .nameWrapper h1 {
+      font-size: 70px;
+      letter-spacing: -5px;
+}
+}
+
+@media (max-width:582px) {
+   .banner {
+      flex-direction: column-reverse;
+      margin-top: 50px;
+      h1 {
+         font-size: 40px;
+         letter-spacing: -2px;
+         line-height: 50px;
+         margin-top: 20px;
+         text-align: center;
+      }
+      h2 {
+         font-size: 15px;
+      }
+      .bannerWrapper {
+         width: 100%;
+      }
+      .bannerImage {
+         width: 100%;
+         text-align: center;
+      }
+      .jasminPic {
+         width: 70%;
+      }
+      .nameWrapper h2 {
+        width: 100%;
+      }
+   }
+ }
+
+ @media(max-width: 440px) {
+    .nameWrapper h1 {
+       font-size: 40px;
+    }
+ }
+
+ 
+
+ 

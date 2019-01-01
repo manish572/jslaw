@@ -52,3 +52,36 @@ position: relative;
    left: auto;
  }
 
+ @media (max-width: 950px) {
+   .serviceBox {
+      width: 35%;
+   }
+}
+
+@media (max-width:582px) {
+   .detailsContainer {
+    width: 90%;
+    }
+ 
+    .serviceBox {
+       width: 100%;
+    }
+  }
+
+
+  @media (max-width: 400px) {
+   .detailsContainer {
+      width: 90%;
+   }
+   .services {
+      margin-top: 80px;
+   }
+   .serviceBox {
+      width: 100%;
+   }
+ }
+
+ 
+
+
+
